@@ -181,7 +181,7 @@ public class RESTController implements ConnectionListener {
         }
 
         if (startSequenceId == null) {
-            // get the current time and subtract some the default hour value
+            /* get the current time and subtract some the default hour value */
             startSequenceId = CONSUMER_2_DEFAULT_SEQUENCE_ID;
         }
 
@@ -236,7 +236,7 @@ public class RESTController implements ConnectionListener {
         }
 
         if (startTime == null) {
-            // get the current time and subtract some the default hour value
+            /* get the current time and subtract some the default hour value */
             startTime = ZonedDateTime.now().minusHours(DEFAULT_ZONE_TIME_OFFSET);
         }
 
